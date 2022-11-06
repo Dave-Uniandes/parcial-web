@@ -1,0 +1,21 @@
+.fontBold{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tableSize{
+    width: 60%;
+}
+
+@media (max-width: 1000px) {
+    .tableSize {
+      width: 80%;
+    }
+}
+
+@media (max-width: 710px) {
+    .tableSize {
+      width: 100%;
+    }
+}

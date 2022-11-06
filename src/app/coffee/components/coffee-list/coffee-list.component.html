@@ -1,0 +1,21 @@
+<table id="coffeeTable" class="tableSize table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Región</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = 'let i of coffeeList'>
+        <th scope="row">{{i.id}}</th>
+        <td>{{i.nombre}}</td>
+        <td>{{i.tipo}}</td>
+        <td>{{i.region}}</td>
+      </tr>
+    </tbody>
+</table>
+
+<div>Total café de origen: <a class="fontBold">{{totalOrigen}}</a></div>
+<div>Total café blend: <a class="fontBold">{{totalBlend}}</a></div>
